@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Esports Pulse</title>
+  <rect width="512" height="512" rx="96" fill="#131515"/>
+  <rect x="76" y="160" width="8" height="192" fill="#80c7b6"/>
+  <g fill="none" stroke="#eeeeeb" stroke-width="28" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M224 160H128V352H224M128 256H208"/>
+    <path d="M280 352V160H332A48 48 0 0 1 332 256H280"/>
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+/* Esports Pulse — shared design tokens. Colour roles are documented in replica/design. */
+:root {
+  --bg: #eef2ee;
+  --cd: #fbfcfa;
+  --raised: #e3ebe4;
+  --tx: #17251d;
+  --secondary: #43574a;
+  --mu: #586d5e;
+  --bd: #cbd8ce;
+  --input-border: #738577;
+  --ac: #23613c;
+  --ac2: #23613c;
+  --on: #ffffff;
+  --primary: #203d2b;
+  --primary-ink: #f5faef;
+  --ok: #23613c;
+  --no: #ad353b;
+  --header-bg: rgb(238 242 238 / .9);
+  --card-shadow: 0 12px 32px rgb(21 43 28 / .06);
+  --dialog-shadow: 0 24px 80px rgb(0 12 6 / .24);
+  --ui: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --hd: "Unbounded", "IBM Plex Sans", system-ui, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+  --fast: 160ms;
+  --slow: 320ms;
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --arena-bg: #080e0b;
+  --arena-surface: #142219;
+  --arena-text: #f4f8ef;
+  --arena-muted: #b8cbbb;
+  --arena-accent: #b5ef78;
+  --arena-border: #3d5643;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #080e0b;
+    --cd: #111c15;
+    --raised: #1d2c22;
+    --tx: #f1f6ed;
+    --secondary: #bdcdbf;
+    --mu: #96aa9b;
+    --bd: #2c4032;
+    --input-border: #708b78;
+    --ac: #b5ef78;
+    --ac2: #b5ef78;
+    --on: #17251d;
+    --primary: #b5ef78;
+    --primary-ink: #17251d;
+    --ok: #b5ef78;
+    --no: #ffa2a7;
+    --header-bg: rgb(8 14 11 / .9);
+    --card-shadow: 0 16px 40px rgb(0 0 0 / .18);
+    --dialog-shadow: 0 24px 80px rgb(0 0 0 / .5);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #080e0b;
+  --cd: #111c15;
+  --raised: #1d2c22;
+  --tx: #f1f6ed;
+  --secondary: #bdcdbf;
+  --mu: #96aa9b;
+  --bd: #2c4032;
+  --input-border: #708b78;
+  --ac: #b5ef78;
+  --ac2: #b5ef78;
+  --on: #17251d;
+  --primary: #b5ef78;
+  --primary-ink: #17251d;
+  --ok: #b5ef78;
+  --no: #ffa2a7;
+  --header-bg: rgb(8 14 11 / .9);
+  --card-shadow: 0 16px 40px rgb(0 0 0 / .18);
+  --dialog-shadow: 0 24px 80px rgb(0 0 0 / .5);
+  color-scheme: dark;
+}

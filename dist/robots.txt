@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-Disallow: /api/
-Sitemap: https://esports-pulse-news.vercel.app/sitemap.xml
+Disallow: /

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --ignore-scripts",
+  "buildCommand": "node build.mjs && npm run check",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/dist/$1" }],
+  "headers": [
+    { "source": "/app.js|styles.css|scene-bootstrap.js", "headers": [ { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }] }
+  ]
+}
